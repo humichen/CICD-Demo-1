@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  }
+}
