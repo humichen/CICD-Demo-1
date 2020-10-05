@@ -43,7 +43,7 @@ const student = {
   },
 
   sayBye: (name) => {
-    return `謝謝${name}！`
+    return `下課，謝謝${name}！`
   }
 }
 
