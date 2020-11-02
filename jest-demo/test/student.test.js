@@ -3,7 +3,7 @@ const student = require('../js/student')
 test('字串比對：Hi, 王小明!', () => {
   const name = '王小明'
 
-  // 期望找錢的結果是符合預期的
+  // 期望 Function 回復對的字串
   expect(student.sayHi(name)).toBe('Hi, 王小明!')
 })
 
@@ -22,7 +22,7 @@ test('物件：上學期各科成績都是100分', () => {
 })
 
 test('正規表達式：符合 email 格式', () => {
-  expect(student.getEmail()).toMatch(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/)
+  expect(student.getEmail()).toMatch(/^\w+((-\w+)|(\.\w+))*@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/)
 })
 
 test('陣列包含：3年1班學生包含王小明在內', () => {

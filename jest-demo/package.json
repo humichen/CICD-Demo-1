@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "testwatch": "jest --watchAll"
   },
   "devDependencies": {
