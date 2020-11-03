@@ -7,3 +7,10 @@ install:
   - npm install
 script:
   - npm run test
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: jest-demo
+  repo: JasonXDDD/CICD-Demo
