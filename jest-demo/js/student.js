@@ -47,4 +47,4 @@ const student = {
   }
 }
 
-module.exports = student
+export { student }

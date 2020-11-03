@@ -1,4 +1,4 @@
-const student = require('../js/student')
+import { student } from '../js/student'
 
 test('字串比對：Hi, 王小明!', () => {
   const name = '王小明'
