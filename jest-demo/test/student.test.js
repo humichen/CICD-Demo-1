@@ -4,7 +4,7 @@ test('字串比對：Hi, 王小明!', () => {
   const name = '王小明'
 
   // 期望 Function 回復對的字串
-  expect(student.sayHi(name)).toBe('Hi, 王明!')
+  expect(student.sayHi(name)).toBe('Hi, 王小明!')
 })
 
 test('數字：數學成績大於60', () => {
